@@ -9,3 +9,10 @@
   background-image: url("bg.png");
   background-size: cover;
 }
+
+*{
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}

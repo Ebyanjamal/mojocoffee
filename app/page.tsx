@@ -9,9 +9,9 @@ export default function Homepage() {
   return(
     <div>
   <div
-  className=' back h-screen items-center justify-center text-center overflow-hidden'>
+  className=' back h-screen items-center justify-center text-center overflow-hidden snap-center no-scrollbar '>
       <h1 
-      className=' text-white text-[12vw] font-header'>Mojo Coffee</h1>
+      className=' text-white text-[12vw] font-header pt-32'>Mojo Coffee</h1>
     </div>
     <Menu/>
       <section id="contact" className='snap-start'>

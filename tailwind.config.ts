@@ -11,7 +11,7 @@ const config: Config = {
       fontFamily: {
         'abc': ["Roboto", "sans-serif"],
         'space': ['Space Grotesk','sans-serif'],
-        'header': ['Lilita One'],
+        'header': ['Lilita One', 'sans-serif'],
       },
     },
   },
