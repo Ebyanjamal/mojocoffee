@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+
 function Contact() {
   return (
     <div className='cover h-screen flex bg-transparent h-screen flex relative overflow-hidden flex-col test-lft md:flex-row max-w-full px-10 bg-back justify-evenly mx-auto items-center'>

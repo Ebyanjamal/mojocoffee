@@ -21,3 +21,23 @@
   background-image: url('https://images.unsplash.com/photo-1542727284-f84ef8478587?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDN8fGV0aGlvcGlhJTIwZmxhZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60');
   background-size: contain;
 }
+
+.slide-in{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  transform-origin: bottom;
+}
+
+.slide-out{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  transform-origin: top;
+}
